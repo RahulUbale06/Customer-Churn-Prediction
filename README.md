@@ -1,5 +1,10 @@
 # 📊 Customer Churn Prediction
 
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+# 📊 Customer Churn Prediction
+
 A Machine Learning project that predicts whether a telecom customer is likely to churn based on customer demographics, subscription details, and billing information.
 
 ---

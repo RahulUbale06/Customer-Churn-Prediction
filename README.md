@@ -116,6 +116,14 @@ streamlit run app/app.py
 
 ---
 
+## Application Preview
+### Home Page
+![img.png](img.png)
+![Screenshot 2026-07-30 191817.png](images/Screenshot%202026-07-30%20191817.png)
+
+### Prediction
+![Screenshot 2026-07-30 191835.png](images/Screenshot%202026-07-30%20191835.png)
+![Screenshot 2026-07-30 191839.png](images/Screenshot%202026-07-30%20191839.png)
 ## 📌 Future Improvements
 
 - Hyperparameter Tuning

@@ -1,94 +1,86 @@
 # 📊 Customer Churn Prediction
 
-![Python](https://img.shields.io/badge/Python-3.11-blue)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-# 📊 Customer Churn Prediction
-
-A Machine Learning project that predicts whether a telecom customer is likely to churn based on customer demographics, subscription details, and billing information.
+A Machine Learning project that predicts whether a telecom customer is likely to churn based on customer demographics, account details, and service usage.
 
 ---
 
-## 📌 Features
+## 🚀 Features
 
-- Data Cleaning & Preprocessing
-- Exploratory Data Analysis (EDA)
-- Feature Encoding
-- Feature Scaling
-- Multiple ML Models
-- Model Evaluation
-- Model Saving using Joblib
-- Streamlit Ready
+- Predict customer churn using Machine Learning
+- Interactive Streamlit web application
+- Data preprocessing and feature engineering
+- Multiple model comparison
+- Random Forest as the final model
+- Displays churn prediction and probability
 
 ---
 
-## 🛠 Tech Stack
+## 🛠️ Tech Stack
 
 - Python
 - Pandas
 - NumPy
-- Matplotlib
 - Scikit-learn
-- Joblib
-- Jupyter Notebook
 - Streamlit
+- Joblib
+- Matplotlib
 
 ---
 
-## 📂 Dataset
+## 📂 Project Structure
 
-IBM Telecom Customer Churn Dataset
-
-**Target Variable:** `Churn Label`
-
----
-
-## 🤖 Models Used
-
-- Logistic Regression
-- Decision Tree
-- Random Forest
-- K-Nearest Neighbors (KNN)
-
----
-
-## 📈 Evaluation Metrics
-
-- Accuracy
-- Precision
-- Recall
-- F1-Score
-- Confusion Matrix
-- Classification Report
-
----
-
-## 🏆 Best Result
-
-**Logistic Regression**
-
-- Accuracy: **96.52%**
-
----
-
-## 📁 Project Structure
-
-```text
-Customer-Churn-Prediction
+```
+Customer-Churn-Prediction/
 │
 ├── app/
 ├── data/
-├── images/
 ├── models/
 ├── notebooks/
+├── images/
 ├── README.md
-├── requirements.txt
-└── LICENSE
+└── requirements.txt
 ```
 
 ---
 
-## 🚀 Getting Started
+## 📈 Machine Learning Workflow
+
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- One-Hot Encoding
+- Feature Selection
+- Model Training
+- Model Comparison
+- Random Forest Classifier
+- Model Evaluation
+- Streamlit Deployment
+
+---
+
+## 📊 Model Performance
+
+| Metric | Score |
+|---------|-------|
+| Accuracy | ~80% |
+| Model | Random Forest |
+
+---
+
+## 🖥️ Application Preview
+
+
+
+
+![Screenshot 2026-07-30 191756.png](images/Screenshot%202026-07-30%20191756.png)home.png
+![Screenshot 2026-07-30 191817.png](images/Screenshot%202026-07-30%20191817.png)prediction.png
+![Screenshot 2026-07-30 191835.png](images/Screenshot%202026-07-30%20191835.png)
+![img_1.png
+
+
+---
+
+## ▶️ Run Locally
 
 Clone the repository
 
@@ -102,13 +94,7 @@ Install dependencies
 pip install -r requirements.txt
 ```
 
-Run the notebook
-
-```bash
-jupyter notebook
-```
-
-Run the Streamlit app
+Run the application
 
 ```bash
 streamlit run app/app.py
@@ -116,25 +102,15 @@ streamlit run app/app.py
 
 ---
 
-## Application Preview
-### Home Page
-![img.png](img.png)
-![Screenshot 2026-07-30 191817.png](images/Screenshot%202026-07-30%20191817.png)
-
-### Prediction
-![Screenshot 2026-07-30 191835.png](images/Screenshot%202026-07-30%20191835.png)
-![Screenshot 2026-07-30 191839.png](images/Screenshot%202026-07-30%20191839.png)
 ## 📌 Future Improvements
 
-- Hyperparameter Tuning
-- XGBoost Implementation
-- Feature Importance Dashboard
-- Cloud Deployment
+- SHAP Explainability
+- Model Deployment on Cloud
+- Dashboard Analytics
+- Customer Risk Visualization
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 Developed & Designed by
 
 **Rahul Ubale**
-
-GitHub: https://github.com/RahulUbale06
